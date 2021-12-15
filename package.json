@@ -1,0 +1,30 @@
+{
+  "name": "chat-app-realtime",
+  "version": "1.0.0",
+  "description": "Realtime chat app with rooms",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server",
+    "dev_debug": "DEBUG=* nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mytechlabo/node-chat-app-realtime.git"
+  },
+  "author": "Trinh Duc Toan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mytechlabo/node-chat-app-realtime/issues"
+  },
+  "homepage": "https://github.com/mytechlabo/node-chat-app-realtime#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^4.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
